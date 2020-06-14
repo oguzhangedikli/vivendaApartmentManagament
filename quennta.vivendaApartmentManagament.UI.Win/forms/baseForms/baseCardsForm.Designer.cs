@@ -127,6 +127,7 @@
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
+            this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.MacOffice;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowDisplayOptionsMenuButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.False;
@@ -135,7 +136,7 @@
             this.ribbonControl.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.ribbonControl.ShowQatLocationSelector = false;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(719, 99);
+            this.ribbonControl.Size = new System.Drawing.Size(719, 93);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -373,11 +374,11 @@
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarAciklama);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayol);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayolAciklama);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 400);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 396);
             this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(719, 22);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(719, 26);
             // 
             // ribbonPage2
             // 

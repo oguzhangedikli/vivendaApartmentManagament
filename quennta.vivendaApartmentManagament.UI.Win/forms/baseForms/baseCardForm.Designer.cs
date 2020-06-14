@@ -93,6 +93,7 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
+            this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.MacOffice;
             this.ribbonControl1.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowDisplayOptionsMenuButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.False;
@@ -101,7 +102,7 @@
             this.ribbonControl1.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.ribbonControl1.ShowQatLocationSelector = false;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(650, 99);
+            this.ribbonControl1.Size = new System.Drawing.Size(650, 93);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -245,10 +246,10 @@
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarAciklama);
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarKisayol);
             this.ribbonStatusBar1.ItemLinks.Add(this.statusBarKisayolAciklama);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 428);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 424);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(650, 22);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(650, 26);
             // 
             // ribbonPage2
             // 
