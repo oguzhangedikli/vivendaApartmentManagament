@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+	.Black{fill:#727272;}
+	.Blue{fill:#1177D7;}
+	.White{fill:#FFFFFF;}
+	.Green{fill:#039C23;}
+	.st0{opacity:0.75;}
+	.st1{opacity:0.5;}
+	.st2{opacity:0.25;}
+	.st3{fill:#FFB115;}
+</style>
+  <g />
+  <g id="Rotate">
+    <polygon points="4,28 4,2 2,2 2,30 30,30 30,28  " class="Black" />
+    <path d="M26,18c0-6.6-5.4-12-12-12V2V0L6,8l8,8v-6c4.4,0,8,3.6,8,8h-6l8,8l8-8H26z" class="Blue" />
+  </g>
+</svg>

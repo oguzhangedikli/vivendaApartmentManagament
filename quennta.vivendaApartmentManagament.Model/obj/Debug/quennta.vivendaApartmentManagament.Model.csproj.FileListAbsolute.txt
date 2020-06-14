@@ -1,0 +1,6 @@
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\bin\Debug\quennta.vivendaApartmentManagament.Model.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\bin\Debug\quennta.vivendaApartmentManagament.Model.pdb
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\obj\Debug\quennta.vivendaApartmentManagament.Model.csprojAssemblyReference.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\obj\Debug\quennta.vivendaApartmentManagament.Model.csproj.CoreCompileInputs.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\obj\Debug\quennta.vivendaApartmentManagament.Model.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.Model\obj\Debug\quennta.vivendaApartmentManagament.Model.pdb

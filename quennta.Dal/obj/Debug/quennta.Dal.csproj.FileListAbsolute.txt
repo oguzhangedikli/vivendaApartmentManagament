@@ -1,0 +1,6 @@
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\bin\Debug\quennta.Dal.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\bin\Debug\quennta.Dal.pdb
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\obj\Debug\quennta.Dal.csprojAssemblyReference.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\obj\Debug\quennta.Dal.csproj.CoreCompileInputs.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\obj\Debug\quennta.Dal.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.Dal\obj\Debug\quennta.Dal.pdb

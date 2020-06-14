@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace quennta.vivendaApartmentManagament.UI.Win.forms.baseForms
+namespace quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms
 {
     public partial class baseCardForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {

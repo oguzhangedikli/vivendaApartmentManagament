@@ -9,13 +9,23 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace quennta.vivendaApartmentManagament.UI.Win.forms.baseForms
+namespace quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms
 {
     public partial class baseCardsForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         public baseCardsForm()
         {
             InitializeComponent();
+        }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void kaydetBarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
     }
 }

@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.Dal", "quennta.Dal\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.Bll", "quennta.vivendaApartmentManagament.Bll\quennta.vivendaApartmentManagament.Bll.csproj", "{5C29CEAB-3912-4C1D-B2EC-703ADB747259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.UI.Win", "quennta.vivendaApartmentManagament.UI.Win\quennta.vivendaApartmentManagament.UI.Win.csproj", "{CC181A85-DFB3-409A-BEEB-5D0FDEBEB6F5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.Data", "quennta.vivendaApartmentManagament.Data\quennta.vivendaApartmentManagament.Data.csproj", "{9F3C3302-B230-47D4-97CA-A0EB87F3119C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.Model", "quennta.vivendaApartmentManagament.Model\quennta.vivendaApartmentManagament.Model.csproj", "{A7DBC11B-E145-4501-A79C-E2B33E81C58F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.Common", "quennta.vivendaApartmentManagament.Common\quennta.vivendaApartmentManagament.Common.csproj", "{968525EC-06B1-4655-9938-95B855278E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quennta.vivendaApartmentManagament.UI.Win", "quennta.vivendaApartmentManagament.UI.Win\quennta.vivendaApartmentManagament.UI.Win.csproj", "{181B85E6-8CE6-4473-8534-CCED0E65EB97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{5C29CEAB-3912-4C1D-B2EC-703ADB747259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C29CEAB-3912-4C1D-B2EC-703ADB747259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C29CEAB-3912-4C1D-B2EC-703ADB747259}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC181A85-DFB3-409A-BEEB-5D0FDEBEB6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC181A85-DFB3-409A-BEEB-5D0FDEBEB6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC181A85-DFB3-409A-BEEB-5D0FDEBEB6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC181A85-DFB3-409A-BEEB-5D0FDEBEB6F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F3C3302-B230-47D4-97CA-A0EB87F3119C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F3C3302-B230-47D4-97CA-A0EB87F3119C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F3C3302-B230-47D4-97CA-A0EB87F3119C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{968525EC-06B1-4655-9938-95B855278E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{968525EC-06B1-4655-9938-95B855278E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{968525EC-06B1-4655-9938-95B855278E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181B85E6-8CE6-4473-8534-CCED0E65EB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181B85E6-8CE6-4473-8534-CCED0E65EB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181B85E6-8CE6-4473-8534-CCED0E65EB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181B85E6-8CE6-4473-8534-CCED0E65EB97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

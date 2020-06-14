@@ -1,0 +1,7 @@
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.csprojAssemblyReference.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms.baseCardForm.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms.baseCardsForm.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.csproj.GenerateResource.cache
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.exe.licenses
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.csproj.CoreCompileInputs.cache
