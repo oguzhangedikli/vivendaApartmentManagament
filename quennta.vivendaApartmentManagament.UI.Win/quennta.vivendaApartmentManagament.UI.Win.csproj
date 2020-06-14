@@ -74,10 +74,19 @@
     <Compile Include="UserControls\Controls\myCalcEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\myCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\myComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\myDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\myTextEdit.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UserControls\myCardEdit.cs">
+    <Compile Include="UserControls\Controls\myCardEdit.cs">
       <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="Forms\baseForms\baseCardForm.resx">
