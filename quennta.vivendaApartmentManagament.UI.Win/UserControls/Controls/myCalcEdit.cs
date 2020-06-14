@@ -27,8 +27,8 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
             //n2 ise bize 3 haneden sonra nokta koymamızı ve noktadan sonra kuruş için iki adet  girmemizi sağlıyor. 
         }
         public override bool EnterMoveNextControl { get; set; } = true;
-        public string statusBarKisayol { get; set; }
-        public string statusBarKisayolAciklama { get; set; }
+        public string statusBarKisayol { get; set; }="F4 :";
+        public string statusBarKisayolAciklama { get; set; } = "Hesap Makinesi";
         public string statusBarAciklama { get; set; }
     }
 }
