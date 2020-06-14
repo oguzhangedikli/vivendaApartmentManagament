@@ -17,5 +17,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms
         {
             InitializeComponent();
         }
+
+
     }
 }

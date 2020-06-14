@@ -64,8 +64,13 @@
     <Compile Include="Forms\baseForms\baseCardsForm.Designer.cs">
       <DependentUpon>baseCardsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IstatusBarAciklama.cs" />
+    <Compile Include="Interfaces\IStatusBarKisayol.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Controls\myButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Forms\baseForms\baseCardForm.resx">
       <DependentUpon>baseCardForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +86,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +100,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gridresetcolumnwidths.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snapdeletelist.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snapdeletelist1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_idea.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_check.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_refresh.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crossdatasourcefiltering.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singlemasterfilter.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotate.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compressweekend.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

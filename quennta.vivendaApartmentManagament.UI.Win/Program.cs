@@ -1,4 +1,5 @@
-﻿using System;
+﻿using quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,6 @@ namespace quennta.vivendaApartmentManagament.UI.Win
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
         }
     }
 }
