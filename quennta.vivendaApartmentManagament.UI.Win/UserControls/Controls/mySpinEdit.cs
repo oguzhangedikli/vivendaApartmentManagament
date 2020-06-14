@@ -1,20 +1,21 @@
 ﻿using DevExpress.XtraEditors;
+using System.Drawing;
+using DevExpress.Utils;
 using quennta.vivendaApartmentManagament.UI.Win.Interfaces;
 using System.ComponentModel;
-using System.Drawing;
 
 namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
 {
-    public class myTextEdit:TextEdit,IstatusBarAciklama
+    [ToolboxItem(true)]
+    public class mySpinEdit: SpinEdit,IstatusBarAciklama
     {
-        [ToolboxItem(true)]
-        public myTextEdit()
+        public mySpinEdit()
         {
             Properties.AppearanceFocused.BackColor = Color.Gray;
-            Properties.MaxLength = 50;
-
+            Properties.AllowNullInput = DefaultBoolean.False;
+            Properties.EditMask = "d";
         }
-        public override bool EnterMoveNextControl { get; set; } = true;
+        public override bool EnterMoveNextControl { get; set; }=true;
         public string statusBarAciklama { get; set; }
     }
 }

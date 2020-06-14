@@ -5,13 +5,12 @@ using System.Drawing;
 
 namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
 {
-    public class myTextEdit:TextEdit,IstatusBarAciklama
+    [ToolboxItem(true)]
+    public class myCheckEdit : CheckEdit, IstatusBarAciklama
     {
-        [ToolboxItem(true)]
-        public myTextEdit()
+        public myCheckEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
-            Properties.MaxLength = 50;
+            Properties.AppearanceFocused.BackColor = Color.Transparent;
 
         }
         public override bool EnterMoveNextControl { get; set; } = true;

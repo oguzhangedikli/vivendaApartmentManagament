@@ -15,7 +15,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls
         [ToolboxItem(true)]
         public myCardEdit()
         {
-            Properties.AppearanceReadOnly.BackColor = Color.LightBlue;
+            Properties.AppearanceReadOnly.BackColor = Color.Gray;
             Properties.MaxLength = 19;
             Properties.Appearance.TextOptions.HAlignment = HorzAlignment.Center;
             //Text'e değer girerken girilen değerler ortada yazmakta.

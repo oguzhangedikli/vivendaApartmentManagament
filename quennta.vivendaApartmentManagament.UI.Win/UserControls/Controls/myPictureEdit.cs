@@ -7,19 +7,20 @@ using System.ComponentModel;
 namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
 {
     [ToolboxItem(true)]
-    public class myComboBoxEdit : ComboBoxEdit, IStatusBarKisayol
+    public class myPictureEdit:PictureEdit,IStatusBarKisayol
     {
-        public myComboBoxEdit()
+        public myPictureEdit()
         {
             Properties.AppearanceFocused.BackColor = Color.Gray;
-            //Arka plan odaklanıldığında değişiyor. 
+            Properties.Appearance.ForeColor = Color.LightGreen;
+            Properties.NullText = "Resim Yok";
+            Properties.SizeMode = PictureSizeMode.Stretch;
+            Properties.ShowMenu = false;
 
-            Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
-            //Text kısmına yazı yazılaması için disabled edildi.
-            //eşittireden sonra ctrl+space tuşuna bastığımızda gelmesi gereken değer seçili olarak geliyor. 
+
         }
         public override bool EnterMoveNextControl { get; set; } = true;
-        public string statusBarKisayol { get; set; } = "F4 :";
+        public string statusBarKisayol { get; set; }
         public string statusBarKisayolAciklama { get; set; }
         public string statusBarAciklama { get; set; }
     }

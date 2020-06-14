@@ -5,16 +5,14 @@ using System.Drawing;
 
 namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
 {
-    public class myTextEdit:TextEdit,IstatusBarAciklama
+    [ToolboxItem(true)]
+    public class mySimpleButton:SimpleButton, IstatusBarAciklama
     {
-        [ToolboxItem(true)]
-        public myTextEdit()
+        public mySimpleButton()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
-            Properties.MaxLength = 50;
-
+            Appearance.ForeColor = Color.LightGreen;
         }
-        public override bool EnterMoveNextControl { get; set; } = true;
+
         public string statusBarAciklama { get; set; }
     }
 }
