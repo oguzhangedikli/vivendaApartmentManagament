@@ -122,3 +122,6 @@ O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennt
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.UserControls.insUptNavigator.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.UserControls.Navigators.LongNavigator.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.UserControls.Navigators.SmallNavigator.resources
