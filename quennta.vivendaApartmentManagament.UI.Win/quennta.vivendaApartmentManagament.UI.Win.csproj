@@ -89,6 +89,9 @@
     <Compile Include="UserControls\Controls\myDateEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\myEmailTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\myFilterControl.cs">
       <SubType>Component</SubType>
     </Compile>
