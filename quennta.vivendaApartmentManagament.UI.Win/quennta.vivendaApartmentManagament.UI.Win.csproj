@@ -110,6 +110,9 @@
     <Compile Include="UserControls\Controls\myTcKimlikNoEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\myTelefonNoTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="UserControls\Controls\myTextEdit.cs">
       <SubType>Component</SubType>
     </Compile>

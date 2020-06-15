@@ -68,9 +68,9 @@
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.myTcKimlikNoEdit1 = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls.myTcKimlikNoEdit();
+            this.myTelefonNoTextEdit1 = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls.myTelefonNoTextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTcKimlikNoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTelefonNoTextEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -258,30 +258,30 @@
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // myTcKimlikNoEdit1
+            // myTelefonNoTextEdit1
             // 
-            this.myTcKimlikNoEdit1.EnterMoveNextControl = true;
-            this.myTcKimlikNoEdit1.Location = new System.Drawing.Point(191, 180);
-            this.myTcKimlikNoEdit1.MenuManager = this.ribbonControl1;
-            this.myTcKimlikNoEdit1.Name = "myTcKimlikNoEdit1";
-            this.myTcKimlikNoEdit1.Properties.Appearance.Options.UseTextOptions = true;
-            this.myTcKimlikNoEdit1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.myTcKimlikNoEdit1.Properties.AppearanceFocused.BackColor = System.Drawing.Color.Gray;
-            this.myTcKimlikNoEdit1.Properties.AppearanceFocused.Options.UseBackColor = true;
-            this.myTcKimlikNoEdit1.Properties.Mask.AutoComplete = DevExpress.XtraEditors.Mask.AutoCompleteType.None;
-            this.myTcKimlikNoEdit1.Properties.Mask.EditMask = "\\d?\\d?\\d? \\d?\\d?\\d? \\d?\\d?\\d? \\d?\\d?";
-            this.myTcKimlikNoEdit1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Regular;
-            this.myTcKimlikNoEdit1.Properties.MaxLength = 50;
-            this.myTcKimlikNoEdit1.Size = new System.Drawing.Size(100, 22);
-            this.myTcKimlikNoEdit1.statusBarAciklama = "TC Kimlik No Giriniz.";
-            this.myTcKimlikNoEdit1.TabIndex = 2;
+            this.myTelefonNoTextEdit1.EnterMoveNextControl = true;
+            this.myTelefonNoTextEdit1.Location = new System.Drawing.Point(166, 219);
+            this.myTelefonNoTextEdit1.MenuManager = this.ribbonControl1;
+            this.myTelefonNoTextEdit1.Name = "myTelefonNoTextEdit1";
+            this.myTelefonNoTextEdit1.Properties.Appearance.Options.UseTextOptions = true;
+            this.myTelefonNoTextEdit1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.myTelefonNoTextEdit1.Properties.AppearanceFocused.BackColor = System.Drawing.Color.Gray;
+            this.myTelefonNoTextEdit1.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTelefonNoTextEdit1.Properties.Mask.AutoComplete = DevExpress.XtraEditors.Mask.AutoCompleteType.None;
+            this.myTelefonNoTextEdit1.Properties.Mask.EditMask = "(\\d?\\d?\\d?) \\d?\\d?\\d? \\d?\\d? \\d?\\d?";
+            this.myTelefonNoTextEdit1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Regular;
+            this.myTelefonNoTextEdit1.Properties.MaxLength = 50;
+            this.myTelefonNoTextEdit1.Size = new System.Drawing.Size(100, 22);
+            this.myTelefonNoTextEdit1.statusBarAciklama = "Telefon No Giriniz.";
+            this.myTelefonNoTextEdit1.TabIndex = 2;
             // 
             // baseCardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 422);
-            this.Controls.Add(this.myTcKimlikNoEdit1);
+            this.Controls.Add(this.myTelefonNoTextEdit1);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.IconOptions.ShowIcon = false;
@@ -291,7 +291,7 @@
             this.ShowInTaskbar = false;
             this.StatusBar = this.ribbonStatusBar1;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myTcKimlikNoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTelefonNoTextEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,6 +313,6 @@
         private DevExpress.XtraBars.BarStaticItem statusBarAciklama;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayol;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayolAciklama;
-        private UserControls.Controls.myTcKimlikNoEdit myTcKimlikNoEdit1;
+        private UserControls.Controls.myTelefonNoTextEdit myTelefonNoTextEdit1;
     }
 }
