@@ -10,7 +10,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public myCheckedComboBoxEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;        }
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
+            Properties.Appearance.ForeColor = Color.White;
+
+        }
         public override bool EnterMoveNextControl { get; set; } = true;
         public string statusBarKisayol { get; set; } = "F4 :";
         public string statusBarKisayolAciklama { get; set; }

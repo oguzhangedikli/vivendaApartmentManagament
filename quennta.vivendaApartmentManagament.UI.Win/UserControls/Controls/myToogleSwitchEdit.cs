@@ -6,6 +6,7 @@ using System.ComponentModel;
 
 namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
 {
+    [ToolboxItem(true)]
     public class myToogleSwitchEdit : ToggleSwitch,IstatusBarAciklama
     {
         [ToolboxItem(true)]
@@ -17,7 +18,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
             Properties.AutoHeight = false;
             Properties.AutoWidth = true;
             Properties.GlyphAlignment = HorzAlignment.Far;
-            Properties.Appearance.ForeColor = Color.Yellow;
+            Properties.Appearance.ForeColor = Color.Black;
 
         }
         public override bool EnterMoveNextControl { get; set; } = true;

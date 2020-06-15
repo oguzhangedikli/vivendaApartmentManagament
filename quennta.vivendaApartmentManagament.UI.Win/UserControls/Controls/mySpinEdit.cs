@@ -11,7 +11,9 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public mySpinEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+            Properties.Appearance.ForeColor = Color.White;
             Properties.AllowNullInput = DefaultBoolean.False;
             Properties.EditMask = "d";
         }

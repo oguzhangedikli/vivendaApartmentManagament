@@ -14,8 +14,12 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public myCalcEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
             //Üstüne tıklandığında arkadaplanı deiştirmekte.
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+            Properties.Appearance.ForeColor = Color.White;
+
+
 
 
             Properties.AllowNullInput = DefaultBoolean.False;

@@ -11,8 +11,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public myPictureEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
-            Properties.Appearance.ForeColor = Color.LightGreen;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
+            Properties.Appearance.ForeColor = Color.White;
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+
             Properties.NullText = "Resim Yok";
             Properties.SizeMode = PictureSizeMode.Stretch;
             Properties.ShowMenu = false;

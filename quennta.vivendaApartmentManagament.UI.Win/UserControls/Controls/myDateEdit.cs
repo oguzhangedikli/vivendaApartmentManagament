@@ -15,7 +15,9 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public myDateEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
+            Properties.Appearance.ForeColor = Color.White;
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
             Properties.AllowNullInput = DefaultBoolean.False;
             //Tarih alanı null olmaması için yazılan kod
 

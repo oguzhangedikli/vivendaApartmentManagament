@@ -19,9 +19,12 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
             Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             //Kendi oluşturduğumuz myButtonEdit compenentinin içine devexpressin buttonEdit compenentindeki textedit 
             //özelliğini disable olarak aktarıyoruz. Button üzerindeki yazılar program içerisinde düzenlenemiyor bu sayede
-            Properties.AppearanceFocused.BackColor = Color.Gray;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
             //Button üstüne gelindiğinde arkaplan rengini değiştime.
-            
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+            Properties.Appearance.ForeColor = Color.White;
+
+
         }
         public override bool EnterMoveNextControl { get; set; } = true;
         //properties olduğu için override. Enter tuşuna basıldığında bir sonraki alana gelmesi için bu proprt. false

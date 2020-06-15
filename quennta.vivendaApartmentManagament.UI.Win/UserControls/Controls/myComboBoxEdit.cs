@@ -11,8 +11,11 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public myComboBoxEdit()
         {
-            Properties.AppearanceFocused.BackColor = Color.Gray;
+            Properties.AppearanceFocused.BackColor = Color.LightSteelBlue;
+            Properties.AppearanceFocused.ForeColor = Color.Black;
+
             //Arka plan odaklanıldığında değişiyor. 
+            Properties.Appearance.ForeColor = Color.White;
 
             Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             //Text kısmına yazı yazılaması için disabled edildi.

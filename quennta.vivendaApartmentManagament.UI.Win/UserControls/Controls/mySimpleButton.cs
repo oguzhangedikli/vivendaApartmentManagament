@@ -10,7 +10,8 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
     {
         public mySimpleButton()
         {
-            Appearance.ForeColor = Color.LightGreen;
+            Appearance.ForeColor = Color.White;
+
         }
 
         public string statusBarAciklama { get; set; }

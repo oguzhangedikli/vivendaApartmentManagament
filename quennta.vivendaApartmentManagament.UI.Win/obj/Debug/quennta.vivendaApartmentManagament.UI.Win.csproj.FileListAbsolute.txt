@@ -116,3 +116,9 @@ O:\repos\projects\quenntaVivendaApartmentManagament\vivendaApartmentManagament\q
 O:\repos\projects\quenntaVivendaApartmentManagament\vivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.csproj.CopyComplete
 O:\repos\projects\quenntaVivendaApartmentManagament\vivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.exe
 O:\repos\projects\quenntaVivendaApartmentManagament\vivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.pdb
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll

@@ -95,9 +95,10 @@
             this.kolonlarBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.myTextEdit1 = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls.myTextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -137,7 +138,6 @@
             this.ribbonControl.ShowQatLocationSelector = false;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
             this.ribbonControl.Size = new System.Drawing.Size(719, 93);
-            this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             this.ribbonControl.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.False;
@@ -369,28 +369,30 @@
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "ribbonPageGroup1";
             // 
-            // ribbonStatusBar
-            // 
-            this.ribbonStatusBar.ItemLinks.Add(this.statusBarAciklama);
-            this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayol);
-            this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayolAciklama);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 396);
-            this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonStatusBar.Name = "ribbonStatusBar";
-            this.ribbonStatusBar.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(719, 26);
-            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
+            // 
+            // myTextEdit1
+            // 
+            this.myTextEdit1.EnterMoveNextControl = true;
+            this.myTextEdit1.Location = new System.Drawing.Point(333, 208);
+            this.myTextEdit1.MenuManager = this.ribbonControl;
+            this.myTextEdit1.Name = "myTextEdit1";
+            this.myTextEdit1.Properties.AppearanceFocused.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.myTextEdit1.Properties.AppearanceFocused.Options.UseBackColor = true;
+            this.myTextEdit1.Properties.MaxLength = 50;
+            this.myTextEdit1.Size = new System.Drawing.Size(100, 22);
+            this.myTextEdit1.statusBarAciklama = null;
+            this.myTextEdit1.TabIndex = 1;
             // 
             // baseCardsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 422);
-            this.Controls.Add(this.ribbonStatusBar);
+            this.Controls.Add(this.myTextEdit1);
             this.Controls.Add(this.ribbonControl);
             this.IconOptions.ShowIcon = false;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -398,8 +400,8 @@
             this.Name = "baseCardsForm";
             this.Ribbon = this.ribbonControl;
             this.ShowInTaskbar = false;
-            this.StatusBar = this.ribbonStatusBar;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.myTextEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -410,7 +412,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.BarButtonItem yeniBarButtonItem;
         private DevExpress.XtraBars.BarButtonItem yazdirBarButtonItem;
@@ -425,5 +426,6 @@
         private DevExpress.XtraBars.BarButtonItem yenileBarButtonItem;
         private DevExpress.XtraBars.BarButtonItem filtreleBarButtonItem;
         private DevExpress.XtraBars.BarButtonItem kolonlarBarButtonItem;
+        private UserControls.Controls.myTextEdit myTextEdit1;
     }
 }
