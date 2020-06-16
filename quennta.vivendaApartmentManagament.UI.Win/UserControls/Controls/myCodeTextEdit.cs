@@ -10,6 +10,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
         public myCodeTextEdit()
         {
             Properties.Appearance.BackColor = Color.PaleGoldenrod;
+            Properties.Appearance.ForeColor = Color.Black;
             Properties.Appearance.TextOptions.HAlignment = HorzAlignment.Center;
             Properties.MaxLength = 20;
             statusBarAciklama = "Kod giriniz.";

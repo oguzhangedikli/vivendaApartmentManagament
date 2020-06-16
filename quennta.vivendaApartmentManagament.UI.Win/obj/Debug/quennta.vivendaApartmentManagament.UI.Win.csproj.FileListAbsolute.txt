@@ -155,3 +155,5 @@ O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennt
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
 O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.Forms.sitesForms.siteCardForm.resources
+O:\repos\projects\microsoftVisualStudio\quenntaVivendaApartmentManagament\quennta.vivendaApartmentManagament.UI.Win\obj\Debug\quennta.vivendaApartmentManagament.UI.Win.Forms.sitesForms.siteCardsForm.resources

@@ -1,4 +1,5 @@
 ﻿using quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms;
+using quennta.vivendaApartmentManagament.UI.Win.Forms.sitesForms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new siteCardForm());
         }
     }
 }

@@ -67,6 +67,18 @@
     <Compile Include="Forms\baseForms\baseCardsForm.Designer.cs">
       <DependentUpon>baseCardsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\sitesForms\siteCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sitesForms\siteCardForm.Designer.cs">
+      <DependentUpon>siteCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\sitesForms\siteCardsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\sitesForms\siteCardsForm.Designer.cs">
+      <DependentUpon>siteCardsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\IstatusBarAciklama.cs" />
     <Compile Include="Interfaces\IStatusBarKisayol.cs" />
     <Compile Include="Program.cs" />
@@ -160,6 +172,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\baseForms\baseCardsForm.resx">
       <DependentUpon>baseCardsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sitesForms\siteCardForm.resx">
+      <DependentUpon>siteCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\sitesForms\siteCardsForm.resx">
+      <DependentUpon>siteCardsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -316,6 +334,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\prev_16x162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business_idea1.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

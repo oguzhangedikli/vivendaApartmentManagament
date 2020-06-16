@@ -43,10 +43,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Controls
             grp.OptionsTableLayoutGroup.ColumnDefinitions[0].Width = 200;
             grp.OptionsTableLayoutGroup.ColumnDefinitions[1].SizeType = SizeType.Percent;
             //Kalan büyüklüğü buraya ver. Yüzdelik hesap.
-            grp.OptionsTableLayoutGroup.ColumnDefinitions[0].Width = 100;
+            grp.OptionsTableLayoutGroup.ColumnDefinitions[1].Width = 100;
             //sürunların tipini ve genişliğini ayarlama
 
-            grp.OptionsTableLayoutGroup.ColumnDefinitions.Add(new ColumnDefinition { SizeType = SizeType.Absolute, Width = 90 });
+            grp.OptionsTableLayoutGroup.ColumnDefinitions.Add(new ColumnDefinition { SizeType = SizeType.Absolute, Width = 99 });
             //Yeni sütun ekleme
 
             grp.OptionsTableLayoutGroup.RowDefinitions.Clear();

@@ -37,7 +37,7 @@
             // 
             // navigator
             // 
-            this.navigator.Appearance.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.navigator.Appearance.ForeColor = System.Drawing.Color.White;
             this.navigator.Appearance.Options.UseForeColor = true;
             this.navigator.Buttons.Append.Visible = false;
             this.navigator.Buttons.CancelEdit.Visible = false;
@@ -51,7 +51,9 @@
             this.navigator.Buttons.Prev.ImageIndex = 2;
             this.navigator.Buttons.PrevPage.ImageIndex = 0;
             this.navigator.Buttons.Remove.Visible = false;
+            this.navigator.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.navigator.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.navigator.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.navigator.Location = new System.Drawing.Point(0, 0);
             this.navigator.Name = "navigator";
             this.navigator.Size = new System.Drawing.Size(581, 24);
