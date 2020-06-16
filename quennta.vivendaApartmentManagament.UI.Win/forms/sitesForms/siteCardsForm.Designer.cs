@@ -59,7 +59,7 @@
             this.ribbonControl.SearchEditItem.Id = -5000;
             this.ribbonControl.SearchEditItem.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             this.ribbonControl.SearchEditItem.UseEditorPadding = false;
-            this.ribbonControl.Size = new System.Drawing.Size(956, 93);
+            this.ribbonControl.Size = new System.Drawing.Size(1054, 93);
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             // 
             // grid
@@ -69,10 +69,11 @@
             this.grid.MainView = this.tablo;
             this.grid.MenuManager = this.ribbonControl;
             this.grid.Name = "grid";
-            this.grid.Size = new System.Drawing.Size(956, 397);
+            this.grid.Size = new System.Drawing.Size(1054, 386);
             this.grid.TabIndex = 3;
             this.grid.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.tablo});
+            this.grid.Click += new System.EventHandler(this.grid_Click);
             // 
             // tablo
             // 
@@ -146,9 +147,9 @@
             // longNavigator1
             // 
             this.longNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.longNavigator1.Location = new System.Drawing.Point(0, 490);
+            this.longNavigator1.Location = new System.Drawing.Point(0, 479);
             this.longNavigator1.Name = "longNavigator1";
-            this.longNavigator1.Size = new System.Drawing.Size(956, 24);
+            this.longNavigator1.Size = new System.Drawing.Size(1054, 21);
             this.longNavigator1.TabIndex = 4;
             // 
             // colSiteAdi
@@ -214,7 +215,7 @@
             this.colAdres.statusBarKisayolAciklama = null;
             this.colAdres.Visible = true;
             this.colAdres.VisibleIndex = 5;
-            this.colAdres.Width = 198;
+            this.colAdres.Width = 190;
             // 
             // colAciklama
             // 
@@ -227,7 +228,7 @@
             this.colAciklama.statusBarKisayolAciklama = null;
             this.colAciklama.Visible = true;
             this.colAciklama.VisibleIndex = 6;
-            this.colAciklama.Width = 194;
+            this.colAciklama.Width = 190;
             // 
             // kolonlarBarButtonItem
             // 
@@ -238,10 +239,12 @@
             // 
             // siteCardsForm
             // 
+            this.Appearance.ForeColor = System.Drawing.Color.White;
             this.Appearance.Options.UseFont = true;
+            this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(956, 540);
+            this.ClientSize = new System.Drawing.Size(1054, 526);
             this.Controls.Add(this.grid);
             this.Controls.Add(this.longNavigator1);
             this.IconOptions.ShowIcon = false;

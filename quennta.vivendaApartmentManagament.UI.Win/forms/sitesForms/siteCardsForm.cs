@@ -9,5 +9,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.Forms.sitesForms
         {
             InitializeComponent();
         }
+
+        private void grid_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
