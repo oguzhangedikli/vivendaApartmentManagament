@@ -27,5 +27,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.Forms.baseForms
         {
 
         }
+
+        private void myBandedGridControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

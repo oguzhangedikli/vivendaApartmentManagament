@@ -68,13 +68,7 @@
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.myGridControl1 = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Grid.myGridControl();
-            this.myGridView1 = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Grid.myGridView();
-            this.colId = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Grid.myGridColumn();
-            this.colKod = new quennta.vivendaApartmentManagament.UI.Win.UserControls.Grid.myGridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myGridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -262,88 +256,11 @@
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // myGridControl1
-            // 
-            this.myGridControl1.Location = new System.Drawing.Point(121, 109);
-            this.myGridControl1.MainView = this.myGridView1;
-            this.myGridControl1.MenuManager = this.ribbonControl1;
-            this.myGridControl1.Name = "myGridControl1";
-            this.myGridControl1.Size = new System.Drawing.Size(507, 247);
-            this.myGridControl1.TabIndex = 2;
-            this.myGridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.myGridView1});
-            // 
-            // myGridView1
-            // 
-            this.myGridView1.Appearance.FooterPanel.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.myGridView1.Appearance.FooterPanel.ForeColor = System.Drawing.Color.White;
-            this.myGridView1.Appearance.FooterPanel.Options.UseFont = true;
-            this.myGridView1.Appearance.FooterPanel.Options.UseForeColor = true;
-            this.myGridView1.Appearance.FooterPanel.Options.UseTextOptions = true;
-            this.myGridView1.Appearance.FooterPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.myGridView1.Appearance.HeaderPanel.ForeColor = System.Drawing.Color.White;
-            this.myGridView1.Appearance.HeaderPanel.Options.UseForeColor = true;
-            this.myGridView1.Appearance.HeaderPanel.Options.UseTextOptions = true;
-            this.myGridView1.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.myGridView1.Appearance.ViewCaption.ForeColor = System.Drawing.Color.White;
-            this.myGridView1.Appearance.ViewCaption.Options.UseForeColor = true;
-            this.myGridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colId,
-            this.colKod});
-            this.myGridView1.GridControl = this.myGridControl1;
-            this.myGridView1.Name = "myGridView1";
-            this.myGridView1.OptionsMenu.EnableColumnMenu = false;
-            this.myGridView1.OptionsMenu.EnableFooterMenu = false;
-            this.myGridView1.OptionsMenu.EnableGroupPanelMenu = false;
-            this.myGridView1.OptionsNavigation.EnterMoveNextColumn = true;
-            this.myGridView1.OptionsPrint.AutoWidth = false;
-            this.myGridView1.OptionsPrint.PrintFooter = false;
-            this.myGridView1.OptionsPrint.PrintGroupFooter = false;
-            this.myGridView1.OptionsView.ColumnAutoWidth = false;
-            this.myGridView1.OptionsView.HeaderFilterButtonShowMode = DevExpress.XtraEditors.Controls.FilterButtonShowMode.Button;
-            this.myGridView1.OptionsView.RowAutoHeight = true;
-            this.myGridView1.OptionsView.ShowAutoFilterRow = true;
-            this.myGridView1.OptionsView.ShowGroupPanel = false;
-            this.myGridView1.OptionsView.ShowViewCaption = true;
-            this.myGridView1.statusBarAciklama = null;
-            this.myGridView1.statusBarKisayol = null;
-            this.myGridView1.statusBarKisayolAciklama = null;
-            // 
-            // colId
-            // 
-            this.colId.AppearanceCell.ForeColor = System.Drawing.Color.Black;
-            this.colId.Caption = "Id";
-            this.colId.FieldName = "Id";
-            this.colId.Name = "colId";
-            this.colId.OptionsColumn.AllowEdit = false;
-            this.colId.OptionsColumn.ShowInCustomizationForm = false;
-            this.colId.statusBarAciklama = null;
-            this.colId.statusBarKisayol = null;
-            this.colId.statusBarKisayolAciklama = null;
-            this.colId.Visible = true;
-            this.colId.VisibleIndex = 0;
-            // 
-            // colKod
-            // 
-            this.colKod.AppearanceCell.ForeColor = System.Drawing.Color.Black;
-            this.colKod.AppearanceCell.Options.UseTextOptions = true;
-            this.colKod.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.colKod.Caption = "Kod";
-            this.colKod.FieldName = "Kod";
-            this.colKod.Name = "colKod";
-            this.colKod.OptionsColumn.AllowEdit = false;
-            this.colKod.statusBarAciklama = null;
-            this.colKod.statusBarKisayol = null;
-            this.colKod.statusBarKisayolAciklama = null;
-            this.colKod.Visible = true;
-            this.colKod.VisibleIndex = 1;
-            // 
             // baseCardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 422);
-            this.Controls.Add(this.myGridControl1);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.IconOptions.ShowIcon = false;
@@ -353,8 +270,6 @@
             this.ShowInTaskbar = false;
             this.StatusBar = this.ribbonStatusBar1;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myGridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -376,9 +291,5 @@
         private DevExpress.XtraBars.BarStaticItem statusBarAciklama;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayol;
         private DevExpress.XtraBars.BarStaticItem statusBarKisayolAciklama;
-        private UserControls.Grid.myGridControl myGridControl1;
-        private UserControls.Grid.myGridView myGridView1;
-        private UserControls.Grid.myGridColumn colId;
-        private UserControls.Grid.myGridColumn colKod;
     }
 }
