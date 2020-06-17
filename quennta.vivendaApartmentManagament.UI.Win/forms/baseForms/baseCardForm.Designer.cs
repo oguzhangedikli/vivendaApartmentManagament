@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem16 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(baseCardForm));
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem6 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem19 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem20 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem7 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem21 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem22 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem23 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem8 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem24 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem25 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem26 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem9 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem27 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem28 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem29 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem10 = new DevExpress.Utils.ToolTipSeparatorItem();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem30 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem1 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem2 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem8 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem3 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem9 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem10 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem11 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem4 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem12 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem13 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem14 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem5 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem15 = new DevExpress.Utils.ToolTipTitleItem();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.yeniBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.kaydetBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
@@ -102,7 +102,7 @@
             this.ribbonControl1.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.ribbonControl1.ShowQatLocationSelector = false;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(719, 93);
+            this.ribbonControl1.Size = new System.Drawing.Size(717, 95);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar;
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -115,16 +115,16 @@
             this.yeniBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.addfile;
             this.yeniBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N));
             this.yeniBarButtonItem.Name = "yeniBarButtonItem";
-            toolTipTitleItem16.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage")));
-            toolTipTitleItem16.Text = "(CTRL - N)";
-            toolTipTitleItem17.Text = "Yeni";
-            toolTipTitleItem18.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage1")));
-            toolTipTitleItem18.Text = "Formu yeni kart eklemek için açar\r\n";
-            superToolTip6.Items.Add(toolTipTitleItem16);
-            superToolTip6.Items.Add(toolTipTitleItem17);
-            superToolTip6.Items.Add(toolTipSeparatorItem6);
-            superToolTip6.Items.Add(toolTipTitleItem18);
-            this.yeniBarButtonItem.SuperTip = superToolTip6;
+            toolTipTitleItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage")));
+            toolTipTitleItem1.Text = "(CTRL - N)";
+            toolTipTitleItem2.Text = "Yeni";
+            toolTipTitleItem3.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage1")));
+            toolTipTitleItem3.Text = "Formu yeni kart eklemek için açar\r\n";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipTitleItem2);
+            superToolTip1.Items.Add(toolTipSeparatorItem1);
+            superToolTip1.Items.Add(toolTipTitleItem3);
+            this.yeniBarButtonItem.SuperTip = superToolTip1;
             // 
             // kaydetBarButtonItem
             // 
@@ -133,16 +133,16 @@
             this.kaydetBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.save;
             this.kaydetBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S));
             this.kaydetBarButtonItem.Name = "kaydetBarButtonItem";
-            toolTipTitleItem19.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage2")));
-            toolTipTitleItem19.Text = "(CTRL - S)";
-            toolTipTitleItem20.Text = "Kaydet";
-            toolTipTitleItem21.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage3")));
-            toolTipTitleItem21.Text = "Yapılan değişiklikleri kaydeder";
-            superToolTip7.Items.Add(toolTipTitleItem19);
-            superToolTip7.Items.Add(toolTipTitleItem20);
-            superToolTip7.Items.Add(toolTipSeparatorItem7);
-            superToolTip7.Items.Add(toolTipTitleItem21);
-            this.kaydetBarButtonItem.SuperTip = superToolTip7;
+            toolTipTitleItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage2")));
+            toolTipTitleItem4.Text = "(CTRL - S)";
+            toolTipTitleItem5.Text = "Kaydet";
+            toolTipTitleItem6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage3")));
+            toolTipTitleItem6.Text = "Yapılan değişiklikleri kaydeder";
+            superToolTip2.Items.Add(toolTipTitleItem4);
+            superToolTip2.Items.Add(toolTipTitleItem5);
+            superToolTip2.Items.Add(toolTipSeparatorItem2);
+            superToolTip2.Items.Add(toolTipTitleItem6);
+            this.kaydetBarButtonItem.SuperTip = superToolTip2;
             // 
             // geriAlButtonItem
             // 
@@ -151,16 +151,16 @@
             this.geriAlButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.gridresetcolumnwidths;
             this.geriAlButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z));
             this.geriAlButtonItem.Name = "geriAlButtonItem";
-            toolTipTitleItem22.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage4")));
-            toolTipTitleItem22.Text = "(CTRL - Z)";
-            toolTipTitleItem23.Text = "Geri Al";
-            toolTipTitleItem24.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage5")));
-            toolTipTitleItem24.Text = "Yapılan değişiklikler geri alınarak açılış verileri yüklenir";
-            superToolTip8.Items.Add(toolTipTitleItem22);
-            superToolTip8.Items.Add(toolTipTitleItem23);
-            superToolTip8.Items.Add(toolTipSeparatorItem8);
-            superToolTip8.Items.Add(toolTipTitleItem24);
-            this.geriAlButtonItem.SuperTip = superToolTip8;
+            toolTipTitleItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage4")));
+            toolTipTitleItem7.Text = "(CTRL - Z)";
+            toolTipTitleItem8.Text = "Geri Al";
+            toolTipTitleItem9.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage5")));
+            toolTipTitleItem9.Text = "Yapılan değişiklikler geri alınarak açılış verileri yüklenir";
+            superToolTip3.Items.Add(toolTipTitleItem7);
+            superToolTip3.Items.Add(toolTipTitleItem8);
+            superToolTip3.Items.Add(toolTipSeparatorItem3);
+            superToolTip3.Items.Add(toolTipTitleItem9);
+            this.geriAlButtonItem.SuperTip = superToolTip3;
             // 
             // silBtn
             // 
@@ -176,16 +176,16 @@
             this.cikisBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.del;
             this.cikisBarButtonItem.Name = "cikisBarButtonItem";
             this.cikisBarButtonItem.ShortcutKeyDisplayString = "Esc";
-            toolTipTitleItem25.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage6")));
-            toolTipTitleItem25.Text = "(ESC)";
-            toolTipTitleItem26.Text = "Çıkış";
-            toolTipTitleItem27.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage7")));
-            toolTipTitleItem27.Text = "Form kapatılır ve çıkılır";
-            superToolTip9.Items.Add(toolTipTitleItem25);
-            superToolTip9.Items.Add(toolTipTitleItem26);
-            superToolTip9.Items.Add(toolTipSeparatorItem9);
-            superToolTip9.Items.Add(toolTipTitleItem27);
-            this.cikisBarButtonItem.SuperTip = superToolTip9;
+            toolTipTitleItem10.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage6")));
+            toolTipTitleItem10.Text = "(ESC)";
+            toolTipTitleItem11.Text = "Çıkış";
+            toolTipTitleItem12.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage7")));
+            toolTipTitleItem12.Text = "Form kapatılır ve çıkılır";
+            superToolTip4.Items.Add(toolTipTitleItem10);
+            superToolTip4.Items.Add(toolTipTitleItem11);
+            superToolTip4.Items.Add(toolTipSeparatorItem4);
+            superToolTip4.Items.Add(toolTipTitleItem12);
+            this.cikisBarButtonItem.SuperTip = superToolTip4;
             // 
             // silBarButtonItem
             // 
@@ -194,16 +194,16 @@
             this.silBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.snapdeletelist;
             this.silBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Delete));
             this.silBarButtonItem.Name = "silBarButtonItem";
-            toolTipTitleItem28.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage8")));
-            toolTipTitleItem28.Text = "(CTRL - DELETE)";
-            toolTipTitleItem29.Text = "Sil";
-            toolTipTitleItem30.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage9")));
-            toolTipTitleItem30.Text = "Seçilen kart onayınız alınarak silinir";
-            superToolTip10.Items.Add(toolTipTitleItem28);
-            superToolTip10.Items.Add(toolTipTitleItem29);
-            superToolTip10.Items.Add(toolTipSeparatorItem10);
-            superToolTip10.Items.Add(toolTipTitleItem30);
-            this.silBarButtonItem.SuperTip = superToolTip10;
+            toolTipTitleItem13.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage8")));
+            toolTipTitleItem13.Text = "(CTRL - DELETE)";
+            toolTipTitleItem14.Text = "Sil";
+            toolTipTitleItem15.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage9")));
+            toolTipTitleItem15.Text = "Seçilen kart onayınız alınarak silinir";
+            superToolTip5.Items.Add(toolTipTitleItem13);
+            superToolTip5.Items.Add(toolTipTitleItem14);
+            superToolTip5.Items.Add(toolTipSeparatorItem5);
+            superToolTip5.Items.Add(toolTipTitleItem15);
+            this.silBarButtonItem.SuperTip = superToolTip5;
             // 
             // statusBarAciklama
             // 
@@ -246,10 +246,10 @@
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarAciklama);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayol);
             this.ribbonStatusBar.ItemLinks.Add(this.statusBarKisayolAciklama);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 396);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 397);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(719, 26);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(717, 24);
             // 
             // ribbonPage2
             // 
@@ -261,7 +261,7 @@
             this.AllowMdiBar = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 422);
+            this.ClientSize = new System.Drawing.Size(717, 421);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl1);
             this.IconOptions.ShowIcon = false;

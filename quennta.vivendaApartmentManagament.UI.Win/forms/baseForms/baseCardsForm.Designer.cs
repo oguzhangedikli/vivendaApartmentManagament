@@ -79,6 +79,11 @@
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem28 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem10 = new DevExpress.Utils.ToolTipSeparatorItem();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem29 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip11 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem30 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.ToolTipSeparatorItem toolTipSeparatorItem11 = new DevExpress.Utils.ToolTipSeparatorItem();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem31 = new DevExpress.Utils.ToolTipTitleItem();
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.yeniBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.yazdirBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
@@ -93,6 +98,25 @@
             this.yenileBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.filtreleBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.kolonlarBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
+            this.ctrlNbarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.yeniBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.deleteBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.silBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.f3BarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.duzeltStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.f5BarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.yenileBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.f8BarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.filtreleBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.ctrlOBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.kolonlarBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.ctrlPBarStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
+            this.yazdirBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.f12BarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.gonderBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.escBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.cikisBarStaticItem = new DevExpress.XtraBars.BarStaticItem();
+            this.pasifCardBarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
@@ -120,10 +144,29 @@
             this.duzeltBarButtonItem,
             this.yenileBarButtonItem,
             this.filtreleBarButtonItem,
-            this.kolonlarBarButtonItem});
+            this.kolonlarBarButtonItem,
+            this.ctrlNbarStaticItem,
+            this.yeniBarStaticItem,
+            this.deleteBarStaticItem,
+            this.silBarStaticItem,
+            this.f3BarStaticItem,
+            this.duzeltStaticItem,
+            this.f5BarStaticItem,
+            this.yenileBarStaticItem,
+            this.f8BarStaticItem,
+            this.filtreleBarStaticItem,
+            this.ctrlOBarStaticItem,
+            this.kolonlarBarStaticItem,
+            this.ctrlPBarStaticItem1,
+            this.yazdirBarStaticItem,
+            this.f12BarStaticItem,
+            this.gonderBarStaticItem,
+            this.escBarStaticItem,
+            this.cikisBarStaticItem,
+            this.pasifCardBarButtonItem});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl.MaxItemId = 15;
+            this.ribbonControl.MaxItemId = 34;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
@@ -136,7 +179,7 @@
             this.ribbonControl.ShowPageHeadersMode = DevExpress.XtraBars.Ribbon.ShowPageHeadersMode.Hide;
             this.ribbonControl.ShowQatLocationSelector = false;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(719, 93);
+            this.ribbonControl.Size = new System.Drawing.Size(1008, 95);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -206,7 +249,7 @@
             this.silBarButtonItem.Caption = "Sil";
             this.silBarButtonItem.Id = 4;
             this.silBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.snapdeletelist1;
-            this.silBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Delete));
+            this.silBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut(System.Windows.Forms.Keys.Delete);
             this.silBarButtonItem.Name = "silBarButtonItem";
             toolTipTitleItem9.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage6")));
             toolTipTitleItem9.Text = "(CTRL - Delete)\r\n";
@@ -347,6 +390,221 @@
             superToolTip10.Items.Add(toolTipTitleItem29);
             this.kolonlarBarButtonItem.SuperTip = superToolTip10;
             // 
+            // ctrlNbarStaticItem
+            // 
+            this.ctrlNbarStaticItem.Caption = "Ctrl+N :";
+            this.ctrlNbarStaticItem.Id = 15;
+            this.ctrlNbarStaticItem.ItemAppearance.Normal.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ctrlNbarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ctrlNbarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.ctrlNbarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.ctrlNbarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.ctrlNbarStaticItem.Name = "ctrlNbarStaticItem";
+            // 
+            // yeniBarStaticItem
+            // 
+            this.yeniBarStaticItem.Caption = "Yeni ";
+            this.yeniBarStaticItem.Id = 16;
+            this.yeniBarStaticItem.ItemAppearance.Normal.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yeniBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.yeniBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.yeniBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.yeniBarStaticItem.Name = "yeniBarStaticItem";
+            // 
+            // deleteBarStaticItem
+            // 
+            this.deleteBarStaticItem.Caption = "Delete :";
+            this.deleteBarStaticItem.Id = 17;
+            this.deleteBarStaticItem.ItemAppearance.Normal.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.deleteBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.deleteBarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.deleteBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.deleteBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.deleteBarStaticItem.Name = "deleteBarStaticItem";
+            // 
+            // silBarStaticItem
+            // 
+            this.silBarStaticItem.Caption = "Sil ";
+            this.silBarStaticItem.Id = 18;
+            this.silBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.silBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.silBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.silBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.silBarStaticItem.Name = "silBarStaticItem";
+            // 
+            // f3BarStaticItem
+            // 
+            this.f3BarStaticItem.Caption = "F3 :";
+            this.f3BarStaticItem.Id = 19;
+            this.f3BarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.f3BarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.f3BarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.f3BarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.f3BarStaticItem.Name = "f3BarStaticItem";
+            // 
+            // duzeltStaticItem
+            // 
+            this.duzeltStaticItem.Caption = "Düzelt ";
+            this.duzeltStaticItem.Id = 20;
+            this.duzeltStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.duzeltStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.duzeltStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.duzeltStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.duzeltStaticItem.Name = "duzeltStaticItem";
+            // 
+            // f5BarStaticItem
+            // 
+            this.f5BarStaticItem.Caption = "F5 :";
+            this.f5BarStaticItem.Id = 21;
+            this.f5BarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.f5BarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.f5BarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.f5BarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.f5BarStaticItem.Name = "f5BarStaticItem";
+            // 
+            // yenileBarStaticItem
+            // 
+            this.yenileBarStaticItem.Caption = "Yenile ";
+            this.yenileBarStaticItem.Id = 22;
+            this.yenileBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.yenileBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.yenileBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.yenileBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.yenileBarStaticItem.Name = "yenileBarStaticItem";
+            // 
+            // f8BarStaticItem
+            // 
+            this.f8BarStaticItem.Caption = "F8 :";
+            this.f8BarStaticItem.Id = 23;
+            this.f8BarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.f8BarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.f8BarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.f8BarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.f8BarStaticItem.Name = "f8BarStaticItem";
+            // 
+            // filtreleBarStaticItem
+            // 
+            this.filtreleBarStaticItem.Caption = "Filtrele ";
+            this.filtreleBarStaticItem.Id = 24;
+            this.filtreleBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.filtreleBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.filtreleBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.filtreleBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.filtreleBarStaticItem.Name = "filtreleBarStaticItem";
+            // 
+            // ctrlOBarStaticItem
+            // 
+            this.ctrlOBarStaticItem.Caption = "Ctrl+O :";
+            this.ctrlOBarStaticItem.Id = 25;
+            this.ctrlOBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ctrlOBarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.ctrlOBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.ctrlOBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.ctrlOBarStaticItem.Name = "ctrlOBarStaticItem";
+            // 
+            // kolonlarBarStaticItem
+            // 
+            this.kolonlarBarStaticItem.Caption = "Kolonlar ";
+            this.kolonlarBarStaticItem.Id = 26;
+            this.kolonlarBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.kolonlarBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.kolonlarBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.kolonlarBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.kolonlarBarStaticItem.Name = "kolonlarBarStaticItem";
+            // 
+            // ctrlPBarStaticItem1
+            // 
+            this.ctrlPBarStaticItem1.Caption = "Ctrl+P :";
+            this.ctrlPBarStaticItem1.Id = 27;
+            this.ctrlPBarStaticItem1.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ctrlPBarStaticItem1.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.ctrlPBarStaticItem1.ItemAppearance.Normal.Options.UseFont = true;
+            this.ctrlPBarStaticItem1.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.ctrlPBarStaticItem1.Name = "ctrlPBarStaticItem1";
+            // 
+            // yazdirBarStaticItem
+            // 
+            this.yazdirBarStaticItem.Caption = "Yazdır ";
+            this.yazdirBarStaticItem.Id = 28;
+            this.yazdirBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.yazdirBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.yazdirBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.yazdirBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.yazdirBarStaticItem.Name = "yazdirBarStaticItem";
+            // 
+            // f12BarStaticItem
+            // 
+            this.f12BarStaticItem.Caption = "F12 :";
+            this.f12BarStaticItem.Id = 29;
+            this.f12BarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.f12BarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.f12BarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.f12BarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.f12BarStaticItem.Name = "f12BarStaticItem";
+            // 
+            // gonderBarStaticItem
+            // 
+            this.gonderBarStaticItem.Caption = "Gönder ";
+            this.gonderBarStaticItem.Id = 30;
+            this.gonderBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.gonderBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.gonderBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.gonderBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.gonderBarStaticItem.Name = "gonderBarStaticItem";
+            // 
+            // escBarStaticItem
+            // 
+            this.escBarStaticItem.Caption = "Esc :";
+            this.escBarStaticItem.Id = 31;
+            this.escBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.escBarStaticItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.escBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.escBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.escBarStaticItem.Name = "escBarStaticItem";
+            // 
+            // cikisBarStaticItem
+            // 
+            this.cikisBarStaticItem.Caption = "Çıkış";
+            this.cikisBarStaticItem.Id = 32;
+            this.cikisBarStaticItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.cikisBarStaticItem.ItemAppearance.Normal.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.cikisBarStaticItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.cikisBarStaticItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.cikisBarStaticItem.Name = "cikisBarStaticItem";
+            // 
+            // pasifCardBarButtonItem
+            // 
+            this.pasifCardBarButtonItem.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.pasifCardBarButtonItem.Caption = "Pasif Kartlar";
+            this.pasifCardBarButtonItem.Id = 33;
+            this.pasifCardBarButtonItem.ImageOptions.SvgImage = global::quennta.vivendaApartmentManagament.UI.Win.Properties.Resources.paste;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.BackColor = System.Drawing.Color.Gold;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.ForeColor = System.Drawing.Color.Red;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.Options.UseBackColor = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.Options.UseFont = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Hovered.Options.UseForeColor = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Normal.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.pasifCardBarButtonItem.ItemAppearance.Normal.ForeColor = System.Drawing.Color.Gold;
+            this.pasifCardBarButtonItem.ItemAppearance.Normal.Options.UseFont = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Normal.Options.UseForeColor = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Pressed.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.pasifCardBarButtonItem.ItemAppearance.Pressed.ForeColor = System.Drawing.Color.Gold;
+            this.pasifCardBarButtonItem.ItemAppearance.Pressed.Options.UseFont = true;
+            this.pasifCardBarButtonItem.ItemAppearance.Pressed.Options.UseForeColor = true;
+            this.pasifCardBarButtonItem.ItemShortcut = new DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L));
+            this.pasifCardBarButtonItem.Name = "pasifCardBarButtonItem";
+            toolTipTitleItem30.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage20")));
+            toolTipTitleItem30.Text = "(CTRL + L)";
+            toolTipItem2.Text = "Aktif veya Pasif Kartları Listele";
+            toolTipTitleItem31.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage21")));
+            toolTipTitleItem31.Text = "Aktif ve Pasif Kartları Listeler";
+            superToolTip11.Items.Add(toolTipTitleItem30);
+            superToolTip11.Items.Add(toolTipItem2);
+            superToolTip11.Items.Add(toolTipSeparatorItem11);
+            superToolTip11.Items.Add(toolTipTitleItem31);
+            this.pasifCardBarButtonItem.SuperTip = superToolTip11;
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -371,10 +629,29 @@
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 370);
+            this.ribbonStatusBar.ItemLinks.Add(this.ctrlNbarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.yeniBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.deleteBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.silBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.f3BarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.duzeltStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.f5BarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.yenileBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.f8BarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.filtreleBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.ctrlOBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.kolonlarBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.ctrlPBarStaticItem1);
+            this.ribbonStatusBar.ItemLinks.Add(this.yazdirBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.f12BarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.gonderBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.escBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.cikisBarStaticItem);
+            this.ribbonStatusBar.ItemLinks.Add(this.pasifCardBarButtonItem);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 425);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(719, 26);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1008, 24);
             // 
             // ribbonPage2
             // 
@@ -387,7 +664,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 396);
+            this.ClientSize = new System.Drawing.Size(1008, 449);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
@@ -423,5 +700,24 @@
         private DevExpress.XtraBars.BarButtonItem kolonlarBarButtonItem;
         protected DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
+        private DevExpress.XtraBars.BarStaticItem ctrlNbarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem yeniBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem deleteBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem silBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem f3BarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem duzeltStaticItem;
+        private DevExpress.XtraBars.BarStaticItem f5BarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem yenileBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem f8BarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem filtreleBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem ctrlOBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem kolonlarBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem ctrlPBarStaticItem1;
+        private DevExpress.XtraBars.BarStaticItem yazdirBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem f12BarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem gonderBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem escBarStaticItem;
+        private DevExpress.XtraBars.BarStaticItem cikisBarStaticItem;
+        private DevExpress.XtraBars.BarButtonItem pasifCardBarButtonItem;
     }
 }

@@ -21,10 +21,10 @@ namespace quennta.vivendaApartmentManagament.UI.Win.UserControls.Grid
         {
             var view = (GridView)CreateView("myGridView");
             view.Appearance.ViewCaption.ForeColor = Color.White;
-            view.Appearance.HeaderPanel.ForeColor = Color.Blue;
+            view.Appearance.HeaderPanel.ForeColor = Color.Gold;
             view.Appearance.HeaderPanel.TextOptions.HAlignment = HorzAlignment.Center;
             view.Appearance.FooterPanel.TextOptions.HAlignment = HorzAlignment.Center;
-            view.Appearance.FooterPanel.ForeColor = Color.Blue;
+            view.Appearance.FooterPanel.ForeColor = Color.Gold;
             view.Appearance.FooterPanel.Font = new Font(new FontFamily("Century SchoolBook"), 9f, FontStyle.Bold);
 
             view.OptionsMenu.EnableColumnMenu = false;

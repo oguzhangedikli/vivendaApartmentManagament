@@ -338,5 +338,8 @@
   <ItemGroup>
     <None Include="Resources\business_idea1.svg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
