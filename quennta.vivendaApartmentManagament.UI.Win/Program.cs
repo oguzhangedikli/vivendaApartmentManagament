@@ -18,7 +18,7 @@ namespace quennta.vivendaApartmentManagament.UI.Win
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new siteCardsForm());
+            Application.Run(new siteCardForm());
         }
     }
 }
